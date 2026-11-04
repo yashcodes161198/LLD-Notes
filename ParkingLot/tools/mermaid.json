@@ -1,0 +1,13 @@
+{
+  "theme": "base",
+  "look": "classic",
+  "themeVariables": {
+    "fontFamily": "Arial, sans-serif",
+    "primaryColor": "#edf3ed",
+    "primaryTextColor": "#1d3036",
+    "primaryBorderColor": "#65877a",
+    "lineColor": "#42695e",
+    "secondaryColor": "#f5f1e7",
+    "tertiaryColor": "#f4f7f8"
+  }
+}
