@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 1728 1189" width="1728" height="1189"><defs><filter id="shadow" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="5" dy="6" stdDeviation="3.5" flood-color="#000" flood-opacity=".26"/></filter><style>@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&amp;display=swap');</style></defs><rect x="0" y="10" width="1728" height="1189" fill="#fff"/><rect x="310" y="858" width="846" height="335" fill="none" stroke="#777" stroke-width="1.4" stroke-dasharray="9 6" rx="6"/><text x="1146" y="1183" text-anchor="end" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="17" fill="#777">Strategy pattern</text>
+<rect x="542" y="178" width="284" height="350" fill="none" stroke="#777" stroke-width="1.4" stroke-dasharray="9 6" rx="6"/><text x="816" y="518" text-anchor="end" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="17" fill="#777">Repository (DIP)</text>
+<path d="M1321.0,173.5 L1480.0,173.5" fill="none" stroke="#1d1d1d" stroke-width="1.8"/>
+<polygon points="1299.0,173.5 1310.0,181.0 1321.0,173.5 1310.0,166.0" fill="#fff" stroke="#1d1d1d" stroke-width="1.4"/>
+<polygon points="1480.0,173.5 1469.8,169.4 1469.8,177.6" fill="#1d1d1d"/>
+<rect x="1356.4" y="153.5" width="84.3" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="1398.5" y="165.5" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">members  0..*</text>
+<path d="M1144.4,365.5 L1098.0,455.0" fill="none" stroke="#1d1d1d" stroke-width="1.8"/>
+<polygon points="1154.5,346.0 1142.8,352.3 1144.4,365.5 1156.1,359.2" fill="#1d1d1d" stroke="#1d1d1d" stroke-width="1.4"/>
+<polygon points="1098.0,455.0 1106.3,447.8 1099.1,444.1" fill="#1d1d1d"/>
+<rect x="1130.2" y="392.5" width="86.1" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="1134.2" y="404.5" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">expenses  0..*</text>
+<path d="M1208.0,519.8 L1480.0,519.8" fill="none" stroke="#1d1d1d" stroke-width="1.8"/>
+<polygon points="1186.0,519.8 1197.0,527.3 1208.0,519.8 1197.0,512.3" fill="#1d1d1d" stroke="#1d1d1d" stroke-width="1.4"/>
+<polygon points="1480.0,519.8 1469.8,515.7 1469.8,523.9" fill="#1d1d1d"/>
+<rect x="1316.3" y="499.8" width="62.9" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="1347.7" y="511.8" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">splits  1..*</text>
+<path d="M1186.0,577.4 L1480.0,653.0" fill="none" stroke="#1d1d1d" stroke-width="1.8"/>
+<polygon points="1480.0,653.0 1471.1,646.5 1469.1,654.4" fill="#1d1d1d"/>
+<rect x="1298.4" y="597.2" width="57.3" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="1327.0" y="609.2" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">splitType</text>
+<path d="M1321.0,271.5 L1480.0,271.5" fill="none" stroke="#1d1d1d" stroke-width="1.8"/>
+<polygon points="1299.0,271.5 1310.0,279.0 1321.0,271.5 1310.0,264.0" fill="#1d1d1d" stroke="#1d1d1d" stroke-width="1.4"/>
+<polygon points="1480.0,271.5 1469.8,267.4 1469.8,275.6" fill="#1d1d1d"/>
+<rect x="1348.3" y="251.5" width="82.4" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="1389.5" y="263.5" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">1 per member</text>
+<path d="M128.0,114.0 L187.0,190.0" fill="none" stroke="#1d1d1d" stroke-width="1.8" stroke-dasharray="8 6"/>
+<polyline points="184.5,178.3 187.0,190.0 176.3,184.7" fill="none" stroke="#1d1d1d" stroke-width="1.7"/>
+<rect x="161.5" y="144.0" width="90.8" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="165.5" y="156.0" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">uses (only this)</text>
+<path d="M334.0,219.8 L560.0,219.8" fill="none" stroke="#1d1d1d" stroke-width="1.8"/>
+<polygon points="560.0,219.8 549.8,215.7 549.8,223.8" fill="#1d1d1d"/>
+<rect x="431.4" y="199.8" width="31.2" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="447.0" y="211.8" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">repo</text>
+<path d="M684.0,390.0 L670.4,319.2" fill="none" stroke="#1d1d1d" stroke-width="1.8" stroke-dasharray="8 6"/>
+<polygon points="667.5,304.0 663.6,320.6 677.2,317.9" fill="#fff" stroke="#1d1d1d" stroke-width="1.6"/>
+<path d="M775.0,252.0 L1010.0,252.0" fill="none" stroke="#1d1d1d" stroke-width="1.8" stroke-dasharray="8 6"/>
+<polyline points="999.2,246.8 1010.0,252.0 999.2,257.2" fill="none" stroke="#1d1d1d" stroke-width="1.7"/>
+<rect x="871.8" y="232.0" width="41.5" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="892.5" y="244.0" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">stores</text>
+<path d="M187.0,438.0 L187.0,650.0" fill="none" stroke="#1d1d1d" stroke-width="1.8"/>
+<polygon points="187.0,650.0 191.1,639.8 182.9,639.8" fill="#1d1d1d"/>
+<rect x="191.0" y="536.0" width="94.5" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="195.0" y="548.0" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">expenseService</text>
+<path d="M334.0,393.4 L470.0,393.4 L470.0,610.0 L1128.5,610.0 L1128.5,710.0" fill="none" stroke="#1d1d1d" stroke-width="1.8"/>
+<polygon points="1128.5,710.0 1132.6,699.8 1124.4,699.8" fill="#1d1d1d"/>
+<rect x="778.1" y="590.0" width="56.4" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="806.3" y="602.0" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">simplifier</text>
+<path d="M40.0,413.2 L20.0,413.2 L20.0,936.4 L40.0,936.4" fill="none" stroke="#1d1d1d" stroke-width="1.8"/>
+<polygon points="40.0,936.4 29.8,932.3 29.8,940.5" fill="#1d1d1d"/>
+<rect x="24.0" y="464.0" width="122.4" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="28.0" y="476.0" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">balanceSheetService</text>
+<path d="M423.5,1085.0 L423.5,1050.0 L629.6,1050.0 L629.6,999.5" fill="none" stroke="#1d1d1d" stroke-width="1.8" stroke-dasharray="8 6"/>
+<polygon points="629.6,984.0 622.7,999.5 636.5,999.5" fill="#fff" stroke="#1d1d1d" stroke-width="1.6"/>
+<path d="M753.0,1085.0 L753.0,1050.0 L710.8,1050.0 L710.8,999.5" fill="none" stroke="#1d1d1d" stroke-width="1.8" stroke-dasharray="8 6"/>
+<polygon points="710.8,984.0 703.9,999.5 717.7,999.5" fill="#fff" stroke="#1d1d1d" stroke-width="1.6"/>
+<path d="M672.5,724.0 L672.5,880.0" fill="none" stroke="#1d1d1d" stroke-width="1.8" stroke-dasharray="8 6"/>
+<polyline points="677.7,869.2 672.5,880.0 667.3,869.2" fill="none" stroke="#1d1d1d" stroke-width="1.7"/>
+<rect x="676.5" y="794.0" width="48.0" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="680.5" y="806.0" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">creates</text>
+<path d="M1043.0,1085.0 L1043.0,1050.0 L773.4,1050.0 L773.4,999.5" fill="none" stroke="#1d1d1d" stroke-width="1.8" stroke-dasharray="8 6"/>
+<polygon points="773.4,984.0 766.5,999.5 780.4,999.5" fill="#fff" stroke="#1d1d1d" stroke-width="1.6"/>
+<path d="M334.0,687.8 L560.0,687.8" fill="none" stroke="#1d1d1d" stroke-width="1.8" stroke-dasharray="8 6"/>
+<polyline points="549.2,682.6 560.0,687.8 549.2,693.0" fill="none" stroke="#1d1d1d" stroke-width="1.7"/>
+<rect x="411.8" y="667.8" width="70.3" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="447.0" y="679.8" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">getStrategy</text>
+<path d="M334.0,757.1 L470.0,757.1 L470.0,932.0 L560.0,932.0" fill="none" stroke="#1d1d1d" stroke-width="1.8"/>
+<polygon points="560.0,932.0 549.8,927.9 549.8,936.1" fill="#1d1d1d"/>
+<rect x="495.5" y="912.0" width="48.9" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="519.9" y="924.0" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">split(...)</text>
+<path d="M187.0,776.0 L187.0,900.0" fill="none" stroke="#1d1d1d" stroke-width="1.8"/>
+<polygon points="187.0,900.0 191.1,889.8 182.9,889.8" fill="#1d1d1d"/>
+<rect x="191.0" y="830.0" width="122.4" height="16" rx="3" fill="#fff" fill-opacity=".88"/>
+<text x="195.0" y="842.0" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">balanceSheetService</text>
+<g class="cls">
+<rect x="40" y="40" width="176" height="74" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="40" y="40" width="176" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="128.0" y="61" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">Main (client)</text>
+<line x1="40" y1="84" x2="216" y2="84" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="52" y="103.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ main(args)</text>
+</g>
+<g class="cls">
+<rect x="1480" y="128" width="176" height="91" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1480" y="128" width="176" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1568.0" y="149" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">User</text>
+<text x="1492" y="179.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- id : String</text>
+<text x="1492" y="197.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- name : String</text>
+<line x1="1480" y1="207.0" x2="1656" y2="207.0" stroke="#1d1d1d" stroke-width="1.2"/>
+</g>
+<g class="cls">
+<rect x="1480" y="470" width="176" height="91" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1480" y="470" width="176" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1568.0" y="491" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">Split</text>
+<text x="1492" y="521.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- user : User</text>
+<text x="1492" y="539.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- amount : double</text>
+<line x1="1480" y1="549.0" x2="1656" y2="549.0" stroke="#1d1d1d" stroke-width="1.2"/>
+</g>
+<g class="cls">
+<rect x="1010" y="455" width="176" height="144" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1010" y="455" width="176" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1098.0" y="476" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">Expense</text>
+<text x="1022" y="506.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- description : String</text>
+<text x="1022" y="524.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- amount : double</text>
+<text x="1022" y="541.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- paidBy : User</text>
+<text x="1022" y="559.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- splits : List&lt;Split&gt;</text>
+<text x="1022" y="576.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- splitType : SplitType</text>
+<line x1="1010" y1="586.5" x2="1186" y2="586.5" stroke="#1d1d1d" stroke-width="1.2"/>
+</g>
+<g class="cls">
+<rect x="1480" y="620" width="176" height="110" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1480" y="620" width="176" height="45" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1568.0" y="635" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#555">«enum»</text>
+<text x="1568.0" y="654" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">SplitType</text>
+<text x="1492" y="684.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">EQUAL</text>
+<text x="1492" y="702.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">PERCENTAGE</text>
+<text x="1492" y="719.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">EXACT</text>
+</g>
+<g class="cls">
+<rect x="1010" y="150" width="289" height="196" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1010" y="150" width="289" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1154.5" y="171" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">Group</text>
+<text x="1022" y="201.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- id : String</text>
+<text x="1022" y="219.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- name : String</text>
+<text x="1022" y="236.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- members : List&lt;User&gt;</text>
+<text x="1022" y="254.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- expenses : List&lt;Expense&gt;</text>
+<text x="1022" y="271.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- balanceSheets : Map&lt;User, BalanceSheet&gt;</text>
+<line x1="1010" y1="281.5" x2="1299" y2="281.5" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="1022" y="301.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ addMember(user)</text>
+<text x="1022" y="318.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ addExpense(expense)</text>
+<text x="1022" y="336.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ getBalanceSheet(user) : BalanceSheet</text>
+</g>
+<g class="cls">
+<rect x="560" y="880" width="232" height="104" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="560" y="880" width="232" height="45" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="676.0" y="895" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#555">«interface»</text>
+<text x="676.0" y="914" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="italic" fill="#111">SplitStrategy</text>
+<line x1="560" y1="937" x2="792" y2="937" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="572" y="956.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic">+ split(total, participants, metadata)</text>
+<text x="572" y="974.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">      : List&lt;Split&gt;</text>
+</g>
+<g class="cls">
+<rect x="330" y="1085" width="187" height="74" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="330" y="1085" width="187" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="423.5" y="1106" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">EqualSplitStrategy</text>
+<line x1="330" y1="1129" x2="517" y2="1129" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="342" y="1148.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ split(..) : List&lt;Split&gt;</text>
+</g>
+<g class="cls">
+<rect x="640" y="1085" width="226" height="74" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="640" y="1085" width="226" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="753.0" y="1106" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">PercentageSplitStrategy</text>
+<line x1="640" y1="1129" x2="866" y2="1129" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="652" y="1148.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ split(..) : List&lt;Split&gt;</text>
+</g>
+<g class="cls">
+<rect x="950" y="1085" width="186" height="74" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="950" y="1085" width="186" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1043.0" y="1106" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">ExactSplitStrategy</text>
+<line x1="950" y1="1129" x2="1136" y2="1129" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="962" y="1148.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ split(..) : List&lt;Split&gt;</text>
+</g>
+<g class="cls">
+<rect x="560" y="650" width="225" height="74" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="560" y="650" width="225" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="672.5" y="671" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">SplitStrategyFactory</text>
+<line x1="560" y1="694" x2="785" y2="694" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="572" y="713.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" text-decoration="underline">+ getStrategy(type) : SplitStrategy</text>
+</g>
+<g class="cls">
+<rect x="1480" y="248" width="214" height="196" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1480" y="248" width="214" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1587.0" y="269" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">BalanceSheet</text>
+<text x="1492" y="299.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- totalPaid : double</text>
+<text x="1492" y="317.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- totalExpense : double</text>
+<text x="1492" y="334.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- balances : Map&lt;User, Double&gt;</text>
+<line x1="1480" y1="344.5" x2="1694" y2="344.5" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="1492" y="364.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ addTotalPaid(amount)</text>
+<text x="1492" y="381.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ addTotalExpense(amount)</text>
+<text x="1492" y="399.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ addBalance(other, amount)</text>
+<text x="1492" y="416.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ clearBalances()</text>
+<text x="1492" y="434.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ print(me)</text>
+</g>
+<g class="cls">
+<rect x="40" y="900" width="270" height="91" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="40" y="900" width="270" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="175.0" y="921" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">BalanceSheetService</text>
+<line x1="40" y1="944" x2="310" y2="944" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="52" y="963.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ updateBalances(group, paidBy, splits)</text>
+<text x="52" y="981.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ recordPayment(group, from, to, amount)</text>
+</g>
+<g class="cls">
+<rect x="40" y="650" width="294" height="126" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="40" y="650" width="294" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="187.0" y="671" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">ExpenseService</text>
+<text x="52" y="701.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- balanceSheetService : BalanceSheetService</text>
+<line x1="40" y1="711.5" x2="334" y2="711.5" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="52" y="731.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ addExpense(group, description, amount,</text>
+<text x="52" y="748.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">      paidBy, participants, splitType, metadata)</text>
+<text x="52" y="766.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- requireMember(group, user)</text>
+</g>
+<g class="cls">
+<rect x="560" y="200" width="215" height="104" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="560" y="200" width="215" height="45" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="667.5" y="215" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#555">«interface»</text>
+<text x="667.5" y="234" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="italic" fill="#111">GroupRepository</text>
+<line x1="560" y1="257" x2="775" y2="257" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="572" y="276.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic">+ findById(id) : Optional&lt;Group&gt;</text>
+<text x="572" y="294.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic">+ save(group)</text>
+</g>
+<g class="cls">
+<rect x="560" y="390" width="248" height="108" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="560" y="390" width="248" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="684.0" y="411" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">InMemoryGroupRepository</text>
+<text x="572" y="441.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- store : Map&lt;String, Group&gt;</text>
+<line x1="560" y1="451.5" x2="808" y2="451.5" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="572" y="471.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ findById(id) : Optional&lt;Group&gt;</text>
+<text x="572" y="488.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ save(group)</text>
+</g>
+<g class="cls">
+<rect x="40" y="190" width="294" height="248" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="40" y="190" width="294" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="187.0" y="211" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">GroupService</text>
+<text x="52" y="241.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- repo : GroupRepository</text>
+<text x="52" y="259.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- expenseService : ExpenseService</text>
+<text x="52" y="276.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- simplifier : DebtSimplificationService</text>
+<text x="52" y="294.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- balanceSheetService : BalanceSheetService</text>
+<line x1="40" y1="304.0" x2="334" y2="304.0" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="52" y="323.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ createGroup(name, members) : String</text>
+<text x="52" y="341.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ addMember(groupId, user)</text>
+<text x="52" y="358.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ addExpense(groupId, ...)</text>
+<text x="52" y="376.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ settleUp(groupId, from, to, amount)</text>
+<text x="52" y="393.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ simplifyDebts(groupId)</text>
+<text x="52" y="411.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ printBalances(groupId)</text>
+<text x="52" y="428.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">- get(id) : Group</text>
+</g>
+<g class="cls">
+<rect x="1010" y="710" width="237" height="91" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1010" y="710" width="237" height="32" fill="#FFFFFF" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1128.5" y="731" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">DebtSimplificationService</text>
+<text x="1022" y="761.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" text-decoration="underline">- EPS : double = 1e-6</text>
+<line x1="1010" y1="771.5" x2="1247" y2="771.5" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="1022" y="791.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">+ simplifyDebts(group)</text>
+</g></svg>

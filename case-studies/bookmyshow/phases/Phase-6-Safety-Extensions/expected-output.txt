@@ -1,0 +1,32 @@
+Search: interstellar
+show1 | Interstellar | PVR Phoenix | s1 | 18:30-20:30 IST
+Demo 2: user1 selects s1-1 and s1-2
+Paid INR 300.00 via Card
+user1: CONFIRMED
+Demo 3: overlapping [3,4] and [4,5]
+Winners: 1; rejected: 1
+Paid INR 300.00 via Card
+Winning booking: CONFIRMED
+Demo 4: user4 waits 6s with a 5s TTL
+user4 rejected: Seat unavailable
+Paid INR 300.00 via UPI
+user5: CONFIRMED
+Extensions: run safety checks
+PASS wrong caller rejected
+PASS confirm retry does not recharge
+PASS confirmed seat cannot be sold again
+PASS empty selection rejected
+PASS duplicate selection rejected
+PASS unknown seat rejected
+PASS overlapping group rejected
+PASS partial acquisition rolled back
+PASS cancellation releases hold
+PASS old attempt rejected even for same user
+PASS old attempt cannot release the new token
+PASS payment false produces FAILED
+PASS failed payment frees the seat
+PASS payment exception propagated
+PASS payment exception fails booking and releases hold
+PASS two service instances charge once
+PASS expiry during payment cannot permit a second sale
+Safety checks passed: 17

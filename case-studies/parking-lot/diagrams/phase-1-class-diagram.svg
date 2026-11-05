@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1095 521 1050 782" width="1050" height="782"><defs><filter id="shadow" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="5" dy="6" stdDeviation="3.5" flood-color="#000" flood-opacity=".28"/></filter><style>@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&amp;display=swap');</style></defs><rect x="1095" y="521" width="1050" height="782" fill="#fff"/><rect x="1650" y="830" width="470" height="395" fill="none" stroke="#444" stroke-width="1.5" stroke-dasharray="9 6" rx="4"/>
+<text x="2108" y="1215" text-anchor="end" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="17" fill="#777">Vehicle family</text>
+<path d="M1737.0,1090.0 L1819.1,1008.0" fill="none" stroke="#1d1d1d" stroke-width="2.2"/>
+<polygon points="1831.1,996.0 1812.7,1001.6 1825.4,1014.4" fill="#fff" stroke="#1d1d1d" stroke-width="1.6"/>
+<path d="M1887.0,1090.0 L1883.1,1013.0" fill="none" stroke="#1d1d1d" stroke-width="2.2"/>
+<polygon points="1882.2,996.0 1874.1,1013.4 1892.0,1012.5" fill="#fff" stroke="#1d1d1d" stroke-width="1.6"/>
+<path d="M2037.0,1090.0 L1945.9,1007.4" fill="none" stroke="#1d1d1d" stroke-width="2.2"/>
+<polygon points="1933.3,996.0 1939.8,1014.1 1951.9,1000.7" fill="#fff" stroke="#1d1d1d" stroke-width="1.6"/>
+<path d="M1933.3,860.0 L1942.5,717.5" fill="none" stroke="#1d1d1d" stroke-width="2.2"/>
+<polygon points="1943.1,708.5 1936.8,721.1 1947.7,721.8" fill="#1d1d1d"/>
+<path d="M1658.8,607.1 L1871.1,631.5" fill="none" stroke="#1d1d1d" stroke-width="2.2"/>
+<polygon points="1880.0,632.5 1867.7,625.6 1866.5,636.5" fill="#1d1d1d"/>
+<rect x="1728.8" y="601.8" width="81.3" height="16" rx="3" fill="#fff" fill-opacity=".85"/>
+<text x="1769.4" y="613.8" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#333">allowedType</text>
+<g class="cls">
+<rect x="1440" y="560" width="219" height="157" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1440" y="560" width="219" height="32" fill="#FFE7A3" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1549.4" y="581" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">ParkingSpot</text>
+<line x1="1440" y1="654.5" x2="1659" y2="654.5" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="1452" y="609.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">- id : String</text>
+<text x="1452" y="626.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">- allowedType : VehicleType</text>
+<text x="1452" y="644.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">- occupied : boolean</text>
+<text x="1452" y="671.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">+ tryOccupy() : boolean</text>
+<text x="1452" y="689.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">+ vacate()</text>
+<text x="1452" y="706.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">+ isOccupied() : boolean</text>
+<rect x="1627" y="549" width="40" height="20" rx="10" fill="#d6336c"/>
+<text x="1647" y="563.5" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">NEW</text>
+</g>
+<g class="cls">
+<rect x="1880" y="600" width="126" height="108" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1880" y="600" width="126" height="46" fill="#FFE7A3" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1943.1" y="616" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#444">«enum»</text>
+<text x="1943.1" y="635" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">VehicleType</text>
+
+<text x="1892" y="663.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">CAR</text>
+<text x="1892" y="680.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">BIKE</text>
+<text x="1892" y="698.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">TRUCK</text>
+<rect x="1974" y="589" width="40" height="20" rx="10" fill="#d6336c"/>
+<text x="1994" y="603.5" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">NEW</text>
+</g>
+<g class="cls">
+<rect x="1780" y="860" width="204" height="136" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1780" y="860" width="204" height="46" fill="#FFE7A3" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1882.2" y="876" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#444">«abstract»</text>
+<text x="1882.2" y="895" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="italic" fill="#111">Vehicle</text>
+<line x1="1780" y1="951.0" x2="1984" y2="951.0" stroke="#1d1d1d" stroke-width="1.2"/>
+<text x="1792" y="923.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">- number : String</text>
+<text x="1792" y="940.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">- type : VehicleType</text>
+<text x="1792" y="968.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">+ getNumber() : String</text>
+<text x="1792" y="985.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.0" fill="#1a1a1a">+ getType() : VehicleType</text>
+<rect x="1952" y="849" width="40" height="20" rx="10" fill="#d6336c"/>
+<text x="1972" y="863.5" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">NEW</text>
+</g>
+<g class="cls">
+<rect x="1680" y="1090" width="114" height="92" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1680" y="1090" width="114" height="32" fill="#FFE7A3" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1737.0" y="1111" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">Car</text>
+<line x1="1680" y1="1156.0" x2="1794" y2="1156.0" stroke="#1d1d1d" stroke-width="1.2"/>
+<rect x="1762" y="1079" width="40" height="20" rx="10" fill="#d6336c"/>
+<text x="1782" y="1093.5" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">NEW</text>
+</g>
+<g class="cls">
+<rect x="1830" y="1090" width="114" height="92" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1830" y="1090" width="114" height="32" fill="#FFE7A3" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="1887.0" y="1111" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">Bike</text>
+<line x1="1830" y1="1156.0" x2="1944" y2="1156.0" stroke="#1d1d1d" stroke-width="1.2"/>
+<rect x="1912" y="1079" width="40" height="20" rx="10" fill="#d6336c"/>
+<text x="1932" y="1093.5" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">NEW</text>
+</g>
+<g class="cls">
+<rect x="1980" y="1090" width="114" height="92" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<rect x="1980" y="1090" width="114" height="32" fill="#FFE7A3" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="2037.0" y="1111" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#111">Truck</text>
+<line x1="1980" y1="1156.0" x2="2094" y2="1156.0" stroke="#1d1d1d" stroke-width="1.2"/>
+<rect x="2062" y="1079" width="40" height="20" rx="10" fill="#d6336c"/>
+<text x="2082" y="1093.5" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">NEW</text>
+</g>
+<text x="1250" y="880.0" text-anchor="start" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">Vehicle is abstract: nobody parks</text>
+<text x="1250" y="901.3" text-anchor="start" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">a plain &quot;Vehicle&quot;, only a Car,</text>
+<text x="1250" y="922.6" text-anchor="start" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">Bike or Truck.</text>
+<path d="M1525.6,891.8 Q1653.4,857.0 1770.0,920.0" fill="none" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="1770.0" y1="920.0" x2="1762.4" y2="909.5" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="1770.0" y1="920.0" x2="1757.0" y2="919.4" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/>
+<text x="1120" y="600.0" text-anchor="start" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">A spot accepts exactly ONE</text>
+<text x="1120" y="621.3" text-anchor="start" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">vehicle type (requirement #2).</text>
+<path d="M1371.1,601.1 Q1396.8,622.3 1430.0,620.0" fill="none" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="1430.0" y1="620.0" x2="1417.9" y2="615.2" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="1430.0" y1="620.0" x2="1418.7" y2="626.5" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/>
+<text x="1120" y="720.0" text-anchor="start" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">tryOccupy() = check + act.</text>
+<text x="1120" y="741.3" text-anchor="start" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">Fine for one thread...</text>
+<text x="1120" y="762.6" text-anchor="start" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">we&#x27;ll fix it in Phase 6.</text>
+<path d="M1338.4,731.8 Q1373.8,688.0 1430.0,690.0" fill="none" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="1430.0" y1="690.0" x2="1418.5" y2="683.9" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="1430.0" y1="690.0" x2="1418.1" y2="695.2" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/>
+<text x="1180" y="1250.0" text-anchor="start" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">Add a Bus later? Just one more subclass</text>
+<text x="1180" y="1271.3" text-anchor="start" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">+ one enum value. Nothing else changes.</text>
+<path d="M1504.6,1251.1 Q1598.1,1172.5 1720.0,1180.0" fill="none" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="1720.0" y1="1180.0" x2="1708.7" y2="1173.6" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="1720.0" y1="1180.0" x2="1708.0" y2="1184.9" stroke="#6b6b6b" stroke-width="1.7" stroke-linecap="round"/></svg>

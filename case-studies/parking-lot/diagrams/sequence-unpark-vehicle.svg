@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1770 800" width="1770" height="800"><defs><filter id="shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="4" dy="5" stdDeviation="3" flood-opacity=".28"/></filter><style>@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&amp;display=swap');</style></defs><rect width="1770" height="800" fill="#fff"/><line x1="90" y1="74" x2="90" y2="780" stroke="#888" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="280" y1="74" x2="280" y2="780" stroke="#888" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="470" y1="74" x2="470" y2="780" stroke="#888" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="660" y1="74" x2="660" y2="780" stroke="#888" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="850" y1="74" x2="850" y2="780" stroke="#888" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="1040" y1="74" x2="1040" y2="780" stroke="#888" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="1230" y1="74" x2="1230" y2="780" stroke="#888" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="1420" y1="74" x2="1420" y2="780" stroke="#888" stroke-width="1.3" stroke-dasharray="6 5"/>
+<rect x="30" y="30" width="120" height="44" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="90" y="57" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Client</text>
+<rect x="220" y="30" width="120" height="44" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="280" y="57" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">ExitGate</text>
+<rect x="410" y="30" width="120" height="44" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="470" y="57" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">ParkingLot</text>
+<rect x="586" y="30" width="149" height="44" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="660" y="57" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">PricingStrategy</text>
+<rect x="771" y="30" width="158" height="44" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="850" y="57" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">PaymentProcessor</text>
+<rect x="966" y="30" width="149" height="44" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="1040" y="57" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">PaymentStrategy</text>
+<rect x="1170" y="30" width="120" height="44" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="1230" y="57" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Ticket</text>
+<rect x="1360" y="30" width="120" height="44" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="1420" y="57" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">ParkingSpot</text>
+<line x1="100" y1="122" x2="280" y2="122" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="280,122 267,116.5 267,127.5" fill="#1d1d1d"/>
+<text x="106" y="113" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#111">unparkVehicle(id, exitTime, mode)</text>
+<circle cx="90" cy="122" r="10" fill="#d6336c"/><text x="90" y="126" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">1</text>
+<line x1="290" y1="172" x2="470" y2="172" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="470,172 457,166.5 457,177.5" fill="#1d1d1d"/>
+<text x="296" y="163" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#111">unparkVehicle(id, exitTime, mode)</text>
+<circle cx="280" cy="172" r="10" fill="#d6336c"/><text x="280" y="176" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">2</text>
+<path d="M480,222 h46 v20 h-46" fill="none" stroke="#1d1d1d" stroke-width="1.6"/>
+<polyline points="492,236 480,242 492,248" fill="none" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="534" y="236" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#111">activeTickets.get(id)</text>
+<circle cx="470" cy="222" r="10" fill="#d6336c"/><text x="470" y="226" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">3</text>
+<line x1="480" y1="272" x2="660" y2="272" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="660,272 647,266.5 647,277.5" fill="#1d1d1d"/>
+<text x="486" y="263" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#111">calculateFee(type, entry, exit)</text>
+<circle cx="470" cy="272" r="10" fill="#d6336c"/><text x="470" y="276" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">4</text>
+<line x1="650" y1="322" x2="470" y2="322" stroke="#1d1d1d" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="482,316 470,322 482,328" fill="none" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="565.0" y="313" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#555">fee</text>
+<circle cx="660" cy="322" r="10" fill="#d6336c"/><text x="660" y="326" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">5</text>
+<line x1="480" y1="372" x2="850" y2="372" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="850,372 837,366.5 837,377.5" fill="#1d1d1d"/>
+<text x="660.0" y="363" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#111">new(PaymentStrategyFactory.get(mode))</text>
+<circle cx="470" cy="372" r="10" fill="#d6336c"/><text x="470" y="376" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">6</text>
+<line x1="480" y1="422" x2="850" y2="422" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="850,422 837,416.5 837,427.5" fill="#1d1d1d"/>
+<text x="660.0" y="413" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#111">pay(ticket, fee)</text>
+<circle cx="470" cy="422" r="10" fill="#d6336c"/><text x="470" y="426" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">7</text>
+<line x1="860" y1="472" x2="1040" y2="472" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="1040,472 1027,466.5 1027,477.5" fill="#1d1d1d"/>
+<text x="866" y="463" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#111">processPayment(ticket, fee)</text>
+<circle cx="850" cy="472" r="10" fill="#d6336c"/><text x="850" y="476" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">8</text>
+<line x1="1030" y1="522" x2="850" y2="522" stroke="#1d1d1d" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="862,516 850,522 862,528" fill="none" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="945.0" y="513" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#555">true / false</text>
+<circle cx="1040" cy="522" r="10" fill="#d6336c"/><text x="1040" y="526" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">9</text>
+<line x1="860" y1="572" x2="1230" y2="572" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="1230,572 1217,566.5 1217,577.5" fill="#1d1d1d"/>
+<text x="1040.0" y="563" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#111">setPaymentStatus(SUCCESS | FAILED)</text>
+<circle cx="850" cy="572" r="10" fill="#d6336c"/><text x="850" y="576" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">10</text>
+<line x1="840" y1="622" x2="470" y2="622" stroke="#1d1d1d" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="482,616 470,622 482,628" fill="none" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="660.0" y="613" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#555">paid?</text>
+<circle cx="850" cy="622" r="10" fill="#d6336c"/><text x="850" y="626" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">11</text>
+<line x1="480" y1="672" x2="1420" y2="672" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="1420,672 1407,666.5 1407,677.5" fill="#1d1d1d"/>
+<text x="945.0" y="663" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#111">vacate()   (only if paid)</text>
+<circle cx="470" cy="672" r="10" fill="#d6336c"/><text x="470" y="676" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">12</text>
+<path d="M480,722 h46 v20 h-46" fill="none" stroke="#1d1d1d" stroke-width="1.6"/>
+<polyline points="492,736 480,742 492,748" fill="none" stroke="#1d1d1d" stroke-width="1.6"/>
+<text x="534" y="736" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#111">activeTickets.remove(id)</text>
+<circle cx="470" cy="722" r="10" fill="#d6336c"/><text x="470" y="726" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">13</text>
+<text x="1490" y="277" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">Strategy #1: which</text>
+<text x="1490" y="298" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">pricing rule? Lot</text>
+<text x="1490" y="319" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">doesn&#x27;t care.</text>
+<path d="M1482,272 q-18,-4 -30,0" fill="none" stroke="#6b6b6b" stroke-width="1.7"/>
+<text x="1490" y="477" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">Strategy #2: Cash,</text>
+<text x="1490" y="498" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">UPI or Card.</text>
+<path d="M1482,472 q-18,-4 -30,0" fill="none" stroke="#6b6b6b" stroke-width="1.7"/>
+<text x="1490" y="677" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">No payment =</text>
+<text x="1490" y="698" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="19" fill="#4a4a4a">no exit.</text>
+<path d="M1482,672 q-18,-4 -30,0" fill="none" stroke="#6b6b6b" stroke-width="1.7"/></svg>

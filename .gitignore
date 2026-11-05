@@ -1,0 +1,10 @@
+# macOS metadata
+.DS_Store
+
+# Local IDE settings
+.idea/
+*.iml
+
+# Compiled Java output
+out/
+*.class

@@ -1,0 +1,6 @@
+t=0 user4 acquires: true
+t=0 user5 acquires: false
+t=5s expired: true
+t=5s user5 acquires: true
+Old owner still owns: false
+Same seat, another show: true

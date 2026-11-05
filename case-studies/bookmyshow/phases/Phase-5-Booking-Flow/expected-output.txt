@@ -1,0 +1,13 @@
+Search: interstellar
+show1 | Interstellar | PVR Phoenix | s1 | 18:30-20:30 IST
+Demo 2: user1 selects s1-1 and s1-2
+Paid INR 300.00 via Card
+user1: CONFIRMED
+Demo 3: overlapping [3,4] and [4,5]
+Winners: 1; rejected: 1
+Paid INR 300.00 via Card
+Winning booking: CONFIRMED
+Demo 4: user4 waits 6s with a 5s TTL
+user4 rejected: Seat s1-6 is temporarily unavailable
+Paid INR 300.00 via UPI
+user5: CONFIRMED

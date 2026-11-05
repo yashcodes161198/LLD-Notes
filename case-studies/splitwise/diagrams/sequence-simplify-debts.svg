@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202 848" width="1202" height="848"><defs><filter id="shadow" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="4" dy="5" stdDeviation="3" flood-color="#000" flood-opacity=".22"/></filter><style>@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&amp;display=swap');</style></defs><rect width="1202" height="848" fill="#fff"/><rect x="623.5" y="492" width="524.0" height="264" fill="#F6F3FF" fill-opacity=".55" stroke="#7a68c8" stroke-width="1.3" rx="4"/><path d="M623.5,492 h284.0 v14 l-8,8 h-276.0 z" fill="#E4DCFF" stroke="#7a68c8" stroke-width="1.3"/><text x="630.5" y="507" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#3c2f86">loop  Step 3: while both heaps are non-empty</text>
+<rect x="623.5" y="262" width="324.5" height="166" fill="#F6F3FF" fill-opacity=".55" stroke="#7a68c8" stroke-width="1.3" rx="4"/><path d="M623.5,262 h198.0 v14 l-8,8 h-190.0 z" fill="#E4DCFF" stroke="#7a68c8" stroke-width="1.3"/><text x="630.5" y="277" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#3c2f86">loop  Step 1: for each member</text>
+<line x1="100.0" y1="78" x2="100.0" y2="834" stroke="#999" stroke-width="1.3" stroke-dasharray="5 5"/>
+<rect x="40.0" y="22" width="120" height="56" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="100.0" y="40" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#555">«client»</text>
+<text x="100.0" y="60" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#111">Main</text>
+<line x1="285.5" y1="78" x2="285.5" y2="834" stroke="#999" stroke-width="1.3" stroke-dasharray="5 5"/>
+<rect x="223.0" y="22" width="125.0" height="44" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="285.5" y="49" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#111">GroupService</text>
+<line x1="481.0" y1="78" x2="481.0" y2="834" stroke="#999" stroke-width="1.3" stroke-dasharray="5 5"/>
+<rect x="406.0" y="22" width="150.0" height="56" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="481.0" y="40" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#555">«interface»</text>
+<text x="481.0" y="60" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#111">GroupRepository</text>
+<line x1="693.5" y1="78" x2="693.5" y2="834" stroke="#999" stroke-width="1.3" stroke-dasharray="5 5"/>
+<rect x="589.0" y="22" width="209.0" height="44" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="693.5" y="49" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#111">DebtSimplificationService</text>
+<line x1="878.0" y1="78" x2="878.0" y2="834" stroke="#999" stroke-width="1.3" stroke-dasharray="5 5"/>
+<rect x="816.0" y="22" width="124.0" height="56" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="878.0" y="40" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#555">«one per user»</text>
+<text x="878.0" y="60" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#111">BalanceSheet</text>
+<line x1="1077.5" y1="78" x2="1077.5" y2="834" stroke="#999" stroke-width="1.3" stroke-dasharray="5 5"/>
+<rect x="999.0" y="22" width="157.0" height="56" fill="#fff" stroke="#1d1d1d" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="1077.5" y="40" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#555">«PriorityQueue x2»</text>
+<text x="1077.5" y="60" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#111">creditors / debtors</text>
+<line x1="100.0" y1="110" x2="285.5" y2="110" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="285.5,110 274.5,105 274.5,115" fill="#1d1d1d"/>
+<rect x="124.1" y="91" width="137.4" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="129.1" y="104" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#222">simplifyDebts(groupId)</text>
+<circle cx="84.0" cy="97" r="9" fill="#E0336B"/><text x="84.0" y="101" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#fff">1</text>
+<line x1="285.5" y1="150" x2="481.0" y2="150" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="481.0,150 470.0,145 470.0,155" fill="#1d1d1d"/>
+<rect x="329.7" y="131" width="107.0" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="334.7" y="144" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#222">findById(groupId)</text>
+<circle cx="269.5" cy="137" r="9" fill="#E0336B"/><text x="269.5" y="141" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#fff">2</text>
+<line x1="481.0" y1="190" x2="285.5" y2="190" stroke="#1d1d1d" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="296.5,185 285.5,190 296.5,195" fill="none" stroke="#1d1d1d" stroke-width="1.6"/>
+<rect x="329.7" y="171" width="107.0" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="334.7" y="184" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" font-style="italic" fill="#555">Optional&lt;Group&gt;</text>
+<line x1="285.5" y1="230" x2="693.5" y2="230" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="693.5,230 682.5,225 682.5,235" fill="#1d1d1d"/>
+<rect x="426.2" y="211" width="126.6" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="431.2" y="224" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#222">simplifyDebts(group)</text>
+<circle cx="269.5" cy="217" r="9" fill="#E0336B"/><text x="269.5" y="221" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#fff">3</text>
+<line x1="693.5" y1="314" x2="878.0" y2="314" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="878.0,314 867.0,309 867.0,319" fill="#1d1d1d"/>
+<rect x="741.5" y="295" width="88.4" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="746.5" y="308" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#222">getBalances()</text>
+<line x1="878.0" y1="354" x2="693.5" y2="354" stroke="#1d1d1d" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="704.5,349 693.5,354 704.5,359" fill="none" stroke="#1d1d1d" stroke-width="1.6"/>
+<rect x="723.9" y="335" width="123.7" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="728.9" y="348" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" font-style="italic" fill="#555">net = sum of values</text>
+<line x1="693.5" y1="394" x2="878.0" y2="394" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="878.0,394 867.0,389 867.0,399" fill="#1d1d1d"/>
+<rect x="736.6" y="375" width="98.2" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="741.6" y="388" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#222">clearBalances()</text>
+<line x1="693.5" y1="460" x2="1077.5" y2="460" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="1077.5,460 1066.5,455 1066.5,465" fill="#1d1d1d"/>
+<rect x="732.0" y="441" width="306.9" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="737.0" y="454" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#222">Step 2: offer(net &gt; 0 -&gt; creditors, net &lt; 0 -&gt; debtors)</text>
+<circle cx="677.5" cy="447" r="9" fill="#E0336B"/><text x="677.5" y="451" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#fff">4</text>
+<line x1="693.5" y1="544" x2="1077.5" y2="544" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="1077.5,544 1066.5,539 1066.5,549" fill="#1d1d1d"/>
+<rect x="761.4" y="525" width="248.1" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="766.4" y="538" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#222">poll() biggest creditor, poll() biggest debtor</text>
+<circle cx="677.5" cy="531" r="9" fill="#E0336B"/><text x="677.5" y="535" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#fff">5</text>
+<path d="M693.5,584 h46 v22 h-40" fill="none" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="697.5,606 707.5,601 707.5,611" fill="#1d1d1d"/>
+<text x="747.5" y="599" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#222">s = min(credit, -debit)</text>
+<line x1="693.5" y1="642" x2="878.0" y2="642" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="878.0,642 867.0,637 867.0,647" fill="#1d1d1d"/>
+<rect x="707.5" y="623" width="188.4" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="712.5" y="636" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#222">creditor.addBalance(debtor, +s)</text>
+<circle cx="677.5" cy="629" r="9" fill="#E0336B"/><text x="677.5" y="633" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#fff">6</text>
+<line x1="693.5" y1="682" x2="878.0" y2="682" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="878.0,682 867.0,677 867.0,687" fill="#1d1d1d"/>
+<rect x="707.5" y="663" width="184.4" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="712.5" y="676" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#222">debtor.addBalance(creditor, -s)</text>
+<line x1="693.5" y1="722" x2="1077.5" y2="722" stroke="#1d1d1d" stroke-width="1.6"/>
+<polygon points="1077.5,722 1066.5,717 1066.5,727" fill="#1d1d1d"/>
+<rect x="773.2" y="703" width="224.6" height="16" fill="#fff" fill-opacity=".9"/>
+<text x="778.2" y="716" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#222">offer() back whoever is not settled yet</text>
+<circle cx="677.5" cy="709" r="9" fill="#E0336B"/><text x="677.5" y="713" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#fff">7</text>
+<text x="633.5" y="792" font-family="'Gochi Hand', 'Comic Sans MS', cursive" font-size="18" fill="#4a4a4a">Each loop turn = one payment in the simplified graph.</text></svg>

@@ -1,0 +1,4 @@
+PVR Phoenix / s1
+s1-1 REGULAR INR 150.00
+s1-9 RECLINER INR 300.00
+Physical seats have no show-specific status.
