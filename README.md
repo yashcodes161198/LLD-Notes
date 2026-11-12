@@ -6,7 +6,7 @@
 
 Study guides · UML diagrams · Annotated interview scripts · Runnable Java
 
-[Browse the case studies](#case-study-library) · [Choose a study format](#two-ways-to-study) · [Run the code](#run-the-code)
+[Browse the case studies](#case-study-library) · [Choose a study format](#two-ways-to-study) · [Reuse the skill](#reusable-interview-prep-skill) · [Run the code](#run-the-code)
 
 </div>
 
@@ -125,6 +125,59 @@ For an **interview guide**, work through this loop.
 
 Do the blank implementation on a different day from the guided exercise so the hints have time to fade. The rulebook explains how to record attempts and evaluate them. [Read the practice rulebook](case-studies/amazon-locker/RULEBOOK.md)
 
+## Reusable interview prep skill
+
+The **`lld-interview-prep`** skill packages the workflow behind the annotated interview format so you can build a study pack for another LLD topic or video, or evaluate a completed workbook attempt. It follows the same five-step Hello Interview framework described above. [Download the skill ZIP](resources/skills/lld-interview-prep.zip)
+
+| Mode | What it produces |
+|---|---|
+| **Create** | An annotated `.py` walkthrough, five workbooks, five answer keys, a rulebook, a case-study README, and runnable Java for Phase 1 core requirements and Phase 2 extensions |
+| **Evaluate** | A review of a submitted attempt using the case study's rulebook and answer key, including scoring and feedback |
+
+The archive includes the skill instructions, framework notes, the Amazon Locker transcript and editor reference, 17 source screenshots, a complete Amazon Locker practice pack, a two-phase Notification Router Java example, and a rulebook template.
+
+```text
+lld-interview-prep/
+├── SKILL.md
+├── reference/
+│   ├── framework.md
+│   ├── amazon_locker_original.py
+│   ├── amazon_locker_transcript.txt
+│   ├── screenshots/
+│   ├── example-amazon-locker/
+│   └── example-code-notification-router/
+└── templates/
+    └── RULEBOOK.md
+```
+
+### Use the bundle
+
+1. Download and extract the ZIP, keeping `SKILL.md`, `reference/`, and `templates/` together.
+2. Give your coding agent the extracted `SKILL.md` path and your local repository root.
+3. Specify a topic or video for creation, or the completed attempt and case-study folder for evaluation.
+
+The bundled instructions contain the original author's macOS output path and video-download setup. When using the skill, explicitly set the destination to your own checkout and adapt the download tools to your operating system.
+
+For example, after replacing the paths with your own, ask your agent to create a pack.
+
+```text
+Read <extracted-folder>/lld-interview-prep/SKILL.md and use its Create mode
+to build an Elevator interview-prep pack.
+
+Use <repo-root>/case-studies/elevator/ as the output directory and update
+<repo-root>/README.md. Override the bundled machine-specific paths with
+these locations and adapt any tool setup to this operating system.
+Use senior level, annotated pseudocode, and runnable Java for both phases.
+```
+
+To review an attempt, give the agent the files to evaluate and the matching rubric.
+
+```text
+Read <extracted-folder>/lld-interview-prep/SKILL.md and use its Evaluate mode.
+Evaluate <repo-root>/case-studies/amazon-locker/attempts/<date>/01_requirements.py
+using that case study's RULEBOOK.md and matching answer key.
+```
+
 ## Run the code
 
 Use **JDK 17 or newer**, with `java` and `javac` on your `PATH`. Run the commands below from the repository root. The shell scripts work with Bash, including Git Bash on Windows, or WSL with a JDK installed in that environment.
@@ -179,7 +232,9 @@ LLD-Notes/
 │   ├── Strategy/
 │   ├── Observer/
 │   └── Decorator/
-└── resources/
+└── resources/      Reference reading and reusable skill bundles
+    └── skills/
+        └── lld-interview-prep.zip
 ```
 
 The reference library includes *Head First Design Patterns*. Topic READMEs record their sources and explain adaptations, fixes, and extensions to the original material. [Browse the resources](resources/)
