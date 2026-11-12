@@ -1,0 +1,25 @@
+00:00 - Intro
+01:12: The Approach
+03:10 - Requirements
+08:01 - Entities 
+12:16 - Class Design
+21:25 - Implementation
+40:52 - Extensibility
+49:55 - Conclusion
+
+A step-by-step breakdown of the low-level design (also called object oriented design) interview question, Design Amazon Locker which is very popular in Amazon's Object Oriented Design interview.
+
+Evan, a former Meta Staff Engineer and current co-founder of Hello Interview, walks through the problem from the perspective of an interviewer.
+
+Connect with me on LinkedIn:  
+Evan: https://www.linkedin.com/in/evan-king-40072280/
+
+Resources:
+1. Detailed write up of the problem: https://www.hellointerview.com/learn/low-level-design/problem-breakdowns/amazon-locker
+3. Low-level Design In a Hurry: https://www.hellointerview.com/learn/low-level-design/in-a-hurry/introduction
+4. Editor file used in the video: https://pastebin.com/uMD5XNU7
+5. Vote for the question you want us to do next: https://www.hellointerview.com/learn/low-level-design/in-a-hurry/vote
+
+Preparing for your upcoming interviews and want to practice with top FAANG interviewers like Evan? Book a mock interview at www.hellointerview.com. 
+
+Good luck with your upcoming interviews!

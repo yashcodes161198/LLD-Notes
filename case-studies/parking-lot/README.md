@@ -19,6 +19,7 @@ parking-lot/
 │   ├── Phase-5-Payment-Strategy/
 │   ├── Phase-6-Concurrency/             the final design
 │   └── checkpoints/                    alternative four-checkpoint guide
+├── code/                               interview-style Java: Phase 1 core + Phase 2 extensions (see code/README.md)
 ├── diagrams/                           SVG class and sequence diagrams
 └── screenshots/                        reference video frames
 ```

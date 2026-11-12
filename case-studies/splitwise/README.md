@@ -18,6 +18,7 @@ splitwise/
 │   ├── Phase-4-Repository-and-Group-Service/
 │   ├── Phase-5-Simplify-Debts/                  the video's complete design
 │   └── Phase-6-Extensions/                     the final design
+├── code/                                      interview-sized Java: Phase 1 core + Phase 2 extensions
 ├── diagrams/                                  SVG class and sequence diagrams
 └── screenshots/                               reference video frames
 ```

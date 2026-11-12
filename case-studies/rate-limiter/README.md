@@ -4,7 +4,26 @@ A per-tier, thread-safe rate limiter built up over six phases. The notes PDF exp
 
 Source: "Design Rate Limiter (LLD) - Token Bucket, Fixed & Sliding Window with Thread Safety" by Shubh Patel (YouTube, 32 min), and its reference code at github.com/shubhkpatel/Low-Level-Design (`rate_limiter` package).
 
-## What's in this folder
+This folder has two study formats: the **interview-prep pack** directly below, and the **phased Java notes** after it.
+
+## Interview prep: annotated solution, workbooks, answer keys
+
+Source: no single video. The design is original, built with the Hello Interview delivery framework (the method from Evan King's *Design Amazon Locker*, see [`../amazon-locker/`](../amazon-locker/README.md)). Level: senior. Language: pseudo-code.
+
+| Start here | |
+|---|---|
+| [`rate_limiter.py`](rate_limiter.py) | The whole interview in one file: the editor content plus 💬 talking points, ⚠️ tricky spots, ✅ best approaches and 🎯 rubric notes |
+| [`RULEBOOK.md`](RULEBOOK.md) | How to fill the workbooks and how the AI grades them |
+| [`workbook/`](workbook/) | 01 requirements · 02 entities + class design · 03 implementation (hints) · 04 implementation (blank) · 05 extensibility |
+| [`answer-key/`](answer-key/) | Scoring keys, 100 pts each. Don't open them before submitting |
+| [`attempts/`](attempts/) | Your dated, filled-in copies plus eval reports |
+| [`screenshots/`](screenshots/) | `00-delivery-framework.png`, plus the frames from the older notes that the solution cites (04, 05, 11–14) |
+
+**Study loop:** read `rate_limiter.py`, close it, do workbook 01, ask the AI to evaluate it, and repeat for each workbook. Do 04 on a different day from 03.
+
+**The one non-obvious thing:** the "obvious" token-bucket refill, `tokens += floor(elapsed * rate); lastRefill = now`, **starves** any client that calls more often than once per token-interval: every call adds 0 and resets the clock, so the bucket never refills. Keep the fraction (decimal tokens). See ⚠️ TRICKY #3. A milder form of the same bug is in `phases/Phase-5-Thread-Safety` below.
+
+## What's in this folder (phased Java notes)
 
 ```
 rate-limiter/

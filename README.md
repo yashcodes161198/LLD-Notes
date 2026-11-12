@@ -9,7 +9,12 @@ LLD-Notes/
 │   ├── Observer/
 │   └── Decorator/
 ├── case-studies/
+│   ├── amazon-locker/
 │   ├── bookmyshow/
+│   ├── job-scheduler/
+│   │   └── hello-interview-bookmyshow/
+│   ├── llm-usage-limits/
+│   ├── notification-router/
 │   ├── parking-lot/
 │   ├── rate-limiter/
 │   └── splitwise/
@@ -26,9 +31,13 @@ Each pattern includes a README and standalone `bad/` and `good/` Java examples. 
 
 ## Case studies
 
-- [BookMyShow](case-studies/bookmyshow/README.md)
+- [Amazon locker](case-studies/amazon-locker/README.md): interview-prep format (annotated solution, 5 workbooks, answer keys, rulebook)
+- [BookMyShow](case-studies/bookmyshow/README.md): phased Java notes, plus the [interview-prep format](case-studies/bookmyshow/hello-interview-bookmyshow/README.md) (annotated solution, 5 workbooks, answer keys, rulebook, Java code)
+- [Job scheduler](case-studies/job-scheduler/README.md): interview-prep format (annotated solution, 5 workbooks, answer keys, rulebook, Java code)
+- [LLM usage limits](case-studies/llm-usage-limits/README.md): 5-hour + weekly quota with unknown request cost and parallel chats; interview-prep format (annotated solution, 5 workbooks, answer keys, rulebook, Java code)
+- [Notification router](case-studies/notification-router/README.md): interview-prep format (annotated solution, 5 workbooks, answer keys, rulebook)
 - [Parking lot](case-studies/parking-lot/README.md)
-- [Rate limiter](case-studies/rate-limiter/README.md)
+- [Rate limiter](case-studies/rate-limiter/README.md): phased Java notes, plus the interview-prep format (annotated solution, 5 workbooks, answer keys, rulebook)
 - [Splitwise](case-studies/splitwise/README.md)
 
 Every case study follows the same layout:

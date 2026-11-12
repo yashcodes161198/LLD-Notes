@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 930" width="920" height="930" font-family="-apple-system, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker>
+  </defs>
+  <rect width="920" height="930" fill="#ffffff"/>
+  <text x="460" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">holdSeats("u2", "S2", ["P1"])  —  which map is read at each step</text>
+  <text x="460" y="52" text-anchor="middle" font-size="13" fill="#64748b">Starting state: B1 already holds P1 in Show S1. Show S2's seatHolders is empty.</text>
+
+  <!-- column headers -->
+  <text x="40" y="82" font-size="13" font-weight="700" fill="#475569">STEP</text>
+  <text x="600" y="82" font-size="13" font-weight="700" fill="#475569">MAP / OBJECT TOUCHED</text>
+
+  <!-- step 1 -->
+  <rect x="40" y="92" width="540" height="46" rx="6" fill="#f8fafc" stroke="#334155"/>
+  <text x="55" y="120" font-size="14" fill="#0f172a">1. Validate input: user not blank, seats non-empty, no duplicates</text>
+  <rect x="600" y="92" width="290" height="46" rx="6" fill="#f1f5f9" stroke="#94a3b8"/>
+  <text x="615" y="120" font-size="13" fill="#475569">none (no lock yet)</text>
+  <path d="M310 138 L310 156" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- step 2 -->
+  <rect x="40" y="160" width="540" height="46" rx="6" fill="#f8fafc" stroke="#334155"/>
+  <text x="55" y="188" font-size="14" fill="#0f172a">2. show = shows.get("S2")   →  Show S2</text>
+  <rect x="600" y="160" width="290" height="46" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="615" y="182" font-size="13" font-weight="600" fill="#1e3a8a">READ BookingSystem.shows</text>
+  <text x="615" y="198" font-size="12" fill="#1e3a8a">showId → Show</text>
+  <path d="M310 206 L310 224" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- step 3 -->
+  <rect x="40" y="228" width="540" height="46" rx="6" fill="#f8fafc" stroke="#334155"/>
+  <text x="55" y="256" font-size="14" fill="#0f172a">3. synchronized (S2) { now = clock;  B2 = new Booking(u2, S2, [P1]) }</text>
+  <rect x="600" y="228" width="290" height="46" rx="6" fill="#f1f5f9" stroke="#94a3b8"/>
+  <text x="615" y="250" font-size="13" font-weight="600" fill="#475569">LOCK Show S2 only</text>
+  <text x="615" y="266" font-size="12" fill="#475569">S1 stays unlocked</text>
+  <path d="M310 274 L310 292" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- step 4 -->
+  <rect x="40" y="296" width="540" height="46" rx="6" fill="#f8fafc" stroke="#334155"/>
+  <text x="55" y="318" font-size="14" fill="#0f172a">4. S2.hold, loop 1: does S2.seats contain "P1"?</text>
+  <text x="55" y="335" font-size="12" fill="#b91c1c">no → IllegalArgumentException ("you can't hold a seat that doesn't exist")</text>
+  <rect x="600" y="296" width="290" height="46" rx="6" fill="#d1fae5" stroke="#059669"/>
+  <text x="615" y="318" font-size="13" font-weight="600" fill="#065f46">READ Show S2 .seats</text>
+  <text x="615" y="334" font-size="12" fill="#065f46">seatId → Seat (layout)</text>
+  <path d="M310 342 L310 360" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- step 5 -->
+  <rect x="40" y="364" width="540" height="46" rx="6" fill="#f8fafc" stroke="#334155"/>
+  <text x="55" y="386" font-size="14" fill="#0f172a">5. S2.hold, loop 2: isFree("P1", now)</text>
+  <text x="55" y="403" font-size="13" fill="#0f172a">    holder = S2.seatHolders.get("P1")</text>
+  <rect x="600" y="364" width="290" height="46" rx="6" fill="#fef3c7" stroke="#d97706"/>
+  <text x="615" y="386" font-size="13" font-weight="600" fill="#92400e">READ Show S2 .seatHolders</text>
+  <text x="615" y="402" font-size="12" fill="#92400e">seatId → Booking (current holder)</text>
+
+  <!-- branches -->
+  <path d="M120 410 L120 446" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M310 410 L310 446" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M500 410 L500 446" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="40" y="450" width="170" height="78" rx="6" fill="#ecfdf5" stroke="#059669"/>
+  <text x="125" y="472" text-anchor="middle" font-size="13" font-weight="700" fill="#065f46">holder == null</text>
+  <text x="125" y="491" text-anchor="middle" font-size="12" fill="#0f172a">never held in S2,</text>
+  <text x="125" y="507" text-anchor="middle" font-size="12" fill="#0f172a">or released</text>
+  <text x="125" y="523" text-anchor="middle" font-size="12" font-weight="700" fill="#065f46">→ FREE  ← our case</text>
+
+  <rect x="225" y="450" width="170" height="78" rx="6" fill="#ecfdf5" stroke="#059669"/>
+  <text x="310" y="472" text-anchor="middle" font-size="13" font-weight="700" fill="#065f46">!holder.isActive(now)</text>
+  <text x="310" y="491" text-anchor="middle" font-size="12" fill="#0f172a">PENDING and</text>
+  <text x="310" y="507" text-anchor="middle" font-size="12" fill="#0f172a">now ≥ expiresAt</text>
+  <text x="310" y="523" text-anchor="middle" font-size="12" font-weight="700" fill="#065f46">→ FREE</text>
+
+  <rect x="410" y="450" width="170" height="78" rx="6" fill="#fef2f2" stroke="#b91c1c"/>
+  <text x="495" y="472" text-anchor="middle" font-size="13" font-weight="700" fill="#991b1b">holder active</text>
+  <text x="495" y="491" text-anchor="middle" font-size="12" fill="#0f172a">CONFIRMED, or PENDING</text>
+  <text x="495" y="507" text-anchor="middle" font-size="12" fill="#0f172a">and not yet expired</text>
+  <text x="495" y="523" text-anchor="middle" font-size="12" font-weight="700" fill="#991b1b">→ SeatUnavailableException</text>
+
+  <path d="M125 528 L125 548 L310 548 L310 566" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M310 528 L310 548" fill="none" stroke="#334155" stroke-width="2"/>
+
+  <!-- step 6 -->
+  <rect x="40" y="570" width="540" height="46" rx="6" fill="#f8fafc" stroke="#334155"/>
+  <text x="55" y="598" font-size="14" fill="#0f172a">6. S2.hold, loop 3: S2.seatHolders.put("P1", B2)</text>
+  <rect x="600" y="570" width="290" height="46" rx="6" fill="#fef3c7" stroke="#d97706"/>
+  <text x="615" y="592" font-size="13" font-weight="600" fill="#92400e">WRITE Show S2 .seatHolders</text>
+  <text x="615" y="608" font-size="12" fill="#92400e">P1 now held by B2</text>
+  <path d="M310 616 L310 634" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- step 7 -->
+  <rect x="40" y="638" width="540" height="46" rx="6" fill="#f8fafc" stroke="#334155"/>
+  <text x="55" y="666" font-size="14" fill="#0f172a">7. Leave lock;  bookings.put("B2", B2);  return "B2"</text>
+  <rect x="600" y="638" width="290" height="46" rx="6" fill="#ede9fe" stroke="#7c3aed"/>
+  <text x="615" y="660" font-size="13" font-weight="600" fill="#4c1d95">WRITE BookingSystem.bookings</text>
+  <text x="615" y="676" font-size="12" fill="#4c1d95">write only; never read in hold</text>
+
+  <!-- notes -->
+  <rect x="40" y="712" width="850" height="198" rx="8" fill="#fff7ed" stroke="#d97706"/>
+  <text x="60" y="740" font-size="15" font-weight="700" fill="#0f172a">Never looked at during this hold</text>
+  <text x="60" y="764" font-size="14" fill="#0f172a">• Show S1 and S1.seatHolders, where B1 lives. So B1 can't block P1 for S2.</text>
+  <text x="60" y="786" font-size="14" fill="#0f172a">• BookingSystem.bookings (only written at the end, after the hold succeeded).</text>
+  <text x="60" y="808" font-size="14" fill="#0f172a">• Any old booking's seatIds list. "Who holds P1?" is always answered by seatHolders.</text>
+  <text x="60" y="842" font-size="15" font-weight="700" fill="#0f172a">So when IS bookings read?</text>
+  <text x="60" y="866" font-size="14" fill="#0f172a">confirmBooking(bookingId, ...) and cancelBooking(bookingId). Those requests carry only a bookingId,</text>
+  <text x="60" y="888" font-size="14" fill="#0f172a">so bookings.get(id) finds the Booking, and booking.getShow() tells us which show to lock.</text>
+</svg>

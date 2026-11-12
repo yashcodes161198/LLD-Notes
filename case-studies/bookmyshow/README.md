@@ -8,12 +8,15 @@ Source: [Shubh Patel’s BookMyShow video](https://www.youtube.com/watch?v=dC-lz
 
 **Repository found:** [shubhkpatel/Low-Level-Design](https://github.com/shubhkpatel/Low-Level-Design). Its current main branch does not contain BookMyShow. The video description says code will be provided later. This pack reconstructs the shown implementation from the full transcript and source frames; it is not an official checkout of a BookMyShow package. See [SOURCES.md](SOURCES.md).
 
+Interview-prep format (Hello Interview framework, booking family with concurrency): [`hello-interview-bookmyshow/`](hello-interview-bookmyshow/README.md).
+
 ## Folder map
 
 ```text
 bookmyshow/
   notes/
     BookMyShow_LLD_Study_Notes.pdf
+  hello-interview-bookmyshow/   interview-prep pack (annotated solution, workbooks, keys, Java)
   phases/
     Phase-1-Venues-and-Seats/
     Phase-2-Movies-and-Shows/
